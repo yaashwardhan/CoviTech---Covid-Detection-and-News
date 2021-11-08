@@ -1,0 +1,257 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>CoviTech - Covid Detection and News </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/meanmenu.css">
+    <style>
+        .center {
+            margin: auto;
+            width: 15%;
+            padding: 25px;
+        }
+
+        .dropbtn {
+            background-color: #73AD21;
+            color: Black;
+            padding: 25px;
+            font-size: 50px;
+            border: none;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            font-size: 30px;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- header begin -->
+    <header>
+        <div class="top-bar d-none d-md-block">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-xl-6 offset-xl-1 col-lg-6 offset-lg-1 col-md-7 offset-md-1">
+                        <div class="header-info">
+                            <span>"Let's Fight this Pandemic Together! Make sure you get vaccinated."</span>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-md-4">
+                        <div class="header-top-right-btn f-right">
+                            <a href="vacc.php" class="btn">Get Vaccinated!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- menu-area -->
+        <div class="header-menu-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-5 d-flex align-items-center">
+                        <div class="logo">
+                            <a href="index.html"><img src="img/logo/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-9 col-md-9">
+                        <div class="header__menu f-right">
+                            <nav id="mobile-menu">
+                                <ul>
+                                    <li><a href="index.html">About</a>
+                                    </li>
+                                    <li><a href="news.html">News</a>
+                                    </li>
+                                    <li><a href="resources.html">Resources</a>
+                                    </li>
+                                    <li><a href="modelpage.php">Model</a>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mobile-menu"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <main>
+        <!-- hero-area start -->
+        <section class="hero-area">
+            <div class="hero-slider">
+                <div class="slider-active">
+                    <div class="single-slider slider-height slider-height-2 d-flex align-items-center"
+                        data-background="img/slider/Doctor.jpg">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-xl-6 col-lg-6 col-md-10">
+                                    <div class="hero-text hero-text-2 pt-35">
+                                        <div class="hero-slider-caption hero-slider-caption-2">
+                                            <h5 class="white-color" data-animation="fadeInUp" data-delay=".2s">We are
+                                                here for your care.</h5>
+                                            <h1 class="white-color" data-animation="fadeInUp" data-delay=".4s">Best
+                                                Resources In Your Area</h1>
+                                        </div>
+                                        <div class="hero-slider-btn">
+                                            <a data-animation="fadeInLeft" data-delay=".6s" href="index.html"
+                                                class="btn btn-icon btn-icon-blue ml-0"><span>+</span>about us</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-5 offset-xl-1 col-lg-6 col-md-12">
+                                    <div class="slider-right-2">
+                                        <div class="caregive-box">
+                                            <div class="search-form">
+                                                <span class="sub-heading">We are here for you</span>
+                                                <h3>Find a Care Giver Near You </h3>
+                                            </div>
+                                            <div class="col-xl-12 mb-35">
+                                                <div class="inner caregive-btn text-center">
+                                                    <div class="dropdown">
+                                                        <div class="inner caregive-btn text-center">
+                                                            <button class="btn gray-btn-border">Pick Area</button>
+                                                        <div class="dropdown-content">
+                                                            <a href="Andheri.html">Andheri</a>
+                                                            <a href="Bandra.html">Bandra</a>
+                                                            <a href="Colaba.html">Colaba</a>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-top primary-bg pt-115 pb-90">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-2 offset-xl-1 col-lg-3 d-md-none d-lg-block">
+                            <div class="footer-widget mb-30">
+                                <div class="footer-title">
+                                    <h3>Quick Links</h3>
+                                </div>
+                                <div class="footer-menu">
+                                    <ul>
+                                        <li><a href="news.html">News</a></li>
+                                        <li><a href="resources.html">Resources</a></li>
+                                        <li><a href="modelpage.php">Model</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 offset-xl-1 col-lg-3 col-md-4">
+                            <div class="footer-widget mb-30">
+                                <div class="footer-title">
+                                    <h3><i class="fa fa-envelope"></i> Contact Us</h3>
+                                </div>
+                                <div class="footer-menu">
+                                    <ul>
+                                        <li><a href="mailto:contact@covitech.org">contact@covitech.org</a></li>
+                                        <li><a>Computer Engineering Department,<br>MPSTME, Mumbai</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom pt-25 pb-20">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="footer-copyright text-center">
+                                <p class="white-color">Web Programming Project, 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/one-page-nav-min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

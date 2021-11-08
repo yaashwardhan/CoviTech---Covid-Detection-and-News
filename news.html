@@ -1,0 +1,542 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>CoviTech - Covid Detection and News </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/meanmenu.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <style>
+        .carousel-control.left,
+        .carousel-control.right {
+            background-image: none;
+        }
+
+        .img-responsive {
+            width: 100%;
+            height: auto;
+        }
+
+        @media (min-width: 992px) {
+            .carousel-inner .active.left {
+                left: -25%;
+            }
+
+            .carousel-inner .next {
+                left: 25%;
+            }
+
+            .carousel-inner .prev {
+                left: -25%;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 991px) {
+            .carousel-inner .active.left {
+                left: -33.3%;
+            }
+
+            .carousel-inner .next {
+                left: 33.3%;
+            }
+
+            .carousel-inner .prev {
+                left: -33.3%;
+            }
+
+            .active>div:first-child {
+                display: block;
+            }
+
+            .active>div:first-child+div {
+                display: block;
+            }
+
+            .active>div:last-child {
+                display: none;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .carousel-inner .active.left {
+                left: -100%;
+            }
+
+            .carousel-inner .next {
+                left: 100%;
+            }
+
+            .carousel-inner .prev {
+                left: -100%;
+            }
+
+            .active>div {
+                display: none;
+            }
+
+            .active>div:first-child {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- header begin -->
+    <header>
+        <div class="top-bar d-none d-md-block">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-xl-6 offset-xl-1 col-lg-6 offset-lg-1 col-md-7 offset-md-1">
+                        <div class="header-info">
+                            <span>"Let's Fight this Pandemic Together! Make sure you get vaccinated."</span>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-md-4">
+                        <div class="header-top-right-btn f-right">
+                            <a href="vacc.php" class="btn">Get Vaccinated!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- menu-area -->
+        <div class="header-menu-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-5 d-flex align-items-center">
+                        <div class="logo">
+                            <a href="index.html"><img src="img/logo/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-9 col-md-9">
+                        <div class="header__menu f-right">
+                            <nav id="mobile-menu">
+                                <ul>
+                                    <li><a href="index.html">About</a>
+                                    </li>
+                                    <li><a href="news.html">News</a>
+                                    </li>
+                                    <li><a href="resources.html">Resources</a>
+                                    </li>
+                                    <li><a href="modelpage.php">Model</a>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mobile-menu"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <main>
+        <!-- hero-area start -->
+        <section class="hero-area">
+            <div class="hero-slider">
+                <div class="slider-active">
+                    <div class="single-slider slider-height d-flex align-items-center"
+                        data-background="img/newspage/slid1res.jpg" style="background-size: cover;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-8 col-md-10">
+                                    <div class="hero-text">
+                                        <div class="hero-slider-caption " style="color:white">
+                                            <h5 style="color:white" data-animation="fadeInUp" data-delay=".2s">Stay
+                                                Updated With</h5>
+                                            <h1 style="color:white" data-animation="fadeInUp" data-delay=".4s">Trending
+                                                News</h1>
+                                            <p style="color:white" data-animation="fadeInUp" data-delay=".6s">Over 70 cr
+                                                Covid vaccine doses administered in India so far, last
+                                                10 cr shots given in 13 days: Centre</p>
+                                        </div>
+                                        <div class="hero-slider-btn">
+                                            <a data-animation="fadeInLeft" data-delay=".6s"
+                                                href="https://www.indiatoday.in/coronavirus-outbreak/vaccine-updates/story/covid-vaccine-doses-india-union-health-ministry-centre-1850356-2021-09-08"
+                                                class="btn btn-rounded ml-0">Read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-slider slider-height d-flex align-items-center"
+                        data-background="img/newspage/slid2res.jpg" style="background-size: cover;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-8 col-md-10">
+                                    <div class="hero-text">
+                                        <div class="hero-slider-caption ">
+                                            <h5 style="color:white" data-animation="fadeInUp" data-delay=".2s">Stay
+                                                Updated With</h5>
+                                            <h1 style="color:white" data-animation="fadeInUp" data-delay=".4s">Trending
+                                                News</h1>
+                                            <p style="color:white" data-animation="fadeInUp" data-delay=".6s">How Many
+                                                Daily Jabs Does India Need to Meet its December 31
+                                                Deadline?</p>
+                                        </div>
+                                        <div class="hero-slider-btn">
+                                            <a data-animation="fadeInLeft" data-delay=".6s"
+                                                href="https://www.news18.com/news/india/covid-19-how-many-jabs-a-day-needed-to-meet-december-31-deadline-4139240.html"
+                                                class="btn btn-rounded ml-0">Read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-slider slider-height d-flex align-items-center"
+                        data-background="img/newspage/slid3res.jpg" style="background-size: cover;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-6 col-lg-8 col-md-10">
+                                    <div class="hero-text">
+                                        <div class="hero-slider-caption ">
+                                            <h5 style="color:white" data-animation="fadeInUp" data-delay=".2s">Stay
+                                                Updated With </h5>
+                                            <h1 style="color:white" data-animation="fadeInUp" data-delay=".4s">Trending
+                                                News</h1>
+                                            <p style="color:white" data-animation="fadeInUp" data-delay=".6s">Delhi govt
+                                                launches new Covid helpline on Whatsapp to provide
+                                                credible information, locate vaccination centre</p>
+                                        </div>
+                                        <div class="hero-slider-btn">
+                                            <a data-animation="fadeInLeft" data-delay=".6s"
+                                                href="https://www.indiatoday.in/coronavirus-outbreak/story/delhi-govt-whatsapp-helpdesk-number-covid-19-information-vaccination-centre-1850781-2021-09-09"
+                                                class="btn btn-rounded ml-0">Read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- hero-area end -->
+
+        <section class="about-area pt-115 pb-80">
+            <div class="container">
+                <div class="row pt-120">
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-couter counter-box counter-box-white text-center mb-30">
+                            <img src="img/counter/counter-icon-7.png" alt="">
+                            <h1><span >6.84</span>+</h1>
+                            <h6 class="green-color pb-20">Billion Doses</h6>
+                            <div class="counter-text mt-10">
+                                <p> have been administered globally.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-couter counter-box counter-box-white text-center mb-30">
+                            <img src="img/counter/counter-icon-83.png" alt="">
+                            <h1><span >48.5</span>+</h1>
+                            <h6 class="green-color pb-20">% of the world population</h6>
+                            <span class="counter-shpae"></span>
+                            <div class="counter-text mt-10">
+                                <p>has received at least one dose of a COVID-19 vaccine.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-couter counter-box counter-box-white text-center mb-30">
+                            <img src="img/counter/counter-icon-9.png" alt="">
+                            <h1><span >25.52</span>+</h1>
+                            <h6 class="green-color pb-20">Million doses</h6>
+                            <span class="counter-shpae"></span>
+                            <div class="counter-text mt-10">
+                                <p>are now administered each day.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- services-area start -->
+        <section class="latest-news-area pt-115 pb-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 offset-xl-3 col-lg-10 offset-lg-1">
+                        <div class="section-title text-center pos-rel mb-75">
+
+                            <div class="section-text pos-rel">
+                                <h1>Top Articles</h1>
+                            </div>
+                            <div class="section-line pos-rel">
+                                <img src="img/shape/section-title-line.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="servcies-area gray-bg pt-115 pb-35">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-6">
+                            <div class="service-box-3 mb-30 text-center">
+                                <div class="service-thumb">
+                                    <a href="https://www.bbc.com/news/world-51235105"><img src="img/slider/global.jpg"
+                                            alt="" width="370" height="350"></a>
+                                </div>
+                                <div class="service-content-box">
+                                    <div class="service-content">
+                                        <h3><a href="https://www.bbc.com/news/world-51235105">Covid map:</a></h3>
+                                        <p>Coronavirus cases, deaths, vaccinations by country</p>
+                                    </div>
+                                    <a href="https://www.bbc.com/news/world-51235105" class="service-link">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6">
+                            <div class="service-box-3 mb-30 text-center">
+                                <div class="service-thumb">
+                                    <a href="https://www.bbc.com/news/av/world-55415763"><img
+                                            src="img/slider/covid.jpg" alt="" width="370" height="350"></a>
+                                </div>
+                                <div class="service-content-box">
+                                    <div class="service-content">
+                                        <h3><a href="https://www.bbc.com/news/av/world-55415763"> Pandemics: The new
+                                                normal?</a></h3>
+                                        <p>So should we expect more pandemics in the future?</p>
+                                    </div>
+                                    <a href="https://www.bbc.com/news/av/world-55415763" class="service-link">Read
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6">
+                            <div class="service-box-3 mb-30 text-center">
+                                <div class="service-thumb">
+                                    <a href="https://www.bbc.com/news/health-51048366"><img
+                                            src="img/slider/sneezing.jpg" alt="" width="370" height="350"></a>
+                                </div>
+                                <div class="service-content-box">
+                                    <div class="service-content">
+                                        <h3><a href="https://www.bbc.com/news/health-51048366">Covid symptoms:</a></h3>
+                                        <p>What are they and how do I protect myself?</p>
+                                    </div>
+                                    <a href="https://www.bbc.com/news/health-51048366" class="service-link">Read
+                                        More</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+    </main>
+    <!-- services-area end -->
+    <br>
+    <br>
+
+
+
+
+    <!-- services-area start -->
+    <section class="servcies-area gray-bg pt-100 pb-90">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 offset-xl-4 col-lg-10 offset-lg-1">
+                    <div class="section-title text-center pos-rel mb-75">
+
+                        <div class="section-text pos-rel">
+
+                            <h1>Watch Now</h1>
+                        </div>
+                        <div class="section-line pos-rel">
+                            <img src="img/shape/section-title-line.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-12">
+                    <iframe width="575" height="300" src="https://www.youtube.com/embed/q8sDN9yMmks"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+                    clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12">
+                    <iframe width="575" height="300" src="https://www.youtube.com/embed/9XZOEGJPPTk"
+                     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+                     clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12">
+                    <iframe width="575" height="300" src="https://www.youtube.com/embed/4qFQ1UPFicw" title="YouTube video player"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                     gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12">
+                    <iframe width="575" height="300" src="https://www.youtube.com/embed/51TdJJ_kzUY"
+                    title="YouTube video player" frameborder="0" allow="accelerometer;
+                    autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- hero-area start -->
+
+    <!--   <h3 class="TNtext2">VACCINE UPDATES</h3>
+        <div class="VUmain">
+
+            <div class="VU1">
+                <div class="VCupdates">
+                    <img class="VNimg" src="VN1.png" />
+                    <a class="VNlink"
+                        href="https://www.indiatoday.in/coronavirus-outbreak/vaccine-updates/story/health-minister-mansukh-mandaviya-states-uts-first-dose-covid-vaccination-coverage-1852050-2021-09-12">100%
+                        adult population in 6 states/UTs vaccinated with first dose:
+                        Union Health Minister</a>
+                </div>
+                <div class="VCupdates">
+                    <img class="VNimg" src="VN2.png" />
+                    <a class="VNlink"
+                        href="https://www.indiatoday.in/coronavirus-outbreak/story/covid-coronavirus-vaccine-effective-efficacy-in-preventing-deaths-single-double-dose-1851053-2021-09-09">One
+                        Covid vaccine dose 96.6% effective in preventive deaths, 97.5
+                        after two doses: ICMR</a>
+                </div>
+                <div class="VCupdates">
+                    <img class="VNimg" src="VN3.png" />
+                    <a class="VNlink"
+                        href="https://www.indiatoday.in/coronavirus-outbreak/story/no-vaccine-side-effects-among-breastfeeding-moms-infants-1850981-2021-09-09">No
+                        serious Covid vaccine side effects among breastfeeding moms,
+                        infants: Study</a>
+                </div>
+            </div>-->
+    <!-- <div class="VU2">
+              <div class="VCupdates">
+                <div class="VCupdates">
+                  <img class="VNimg" src="VN3.png" />
+                  <a
+                    class="VNlink"
+                    href="https://www.indiatoday.in/coronavirus-outbreak/story/no-vaccine-side-effects-among-breastfeeding-moms-infants-1850981-2021-09-09"
+                    >No serious Covid vaccine side effects among breastfeeding moms,
+                    infants: Study</a
+                  >
+                </div>
+                <img class="VNimg" src="VN1.png" />
+                <a
+                  class="VNlink"
+                  href="https://www.indiatoday.in/coronavirus-outbreak/vaccine-updates/story/health-minister-mansukh-mandaviya-states-uts-first-dose-covid-vaccination-coverage-1852050-2021-09-12"
+                  >100% adult population in 6 states/UTs vaccinated with first dose:
+                  Union Health Minister</a
+                >
+              </div>
+              <div class="VCupdates">
+                <img class="VNimg" src="VN2.png" />
+                <a
+                  class="VNlink"
+                  href="https://www.indiatoday.in/coronavirus-outbreak/story/covid-coronavirus-vaccine-effective-efficacy-in-preventing-deaths-single-double-dose-1851053-2021-09-09"
+                  >One Covid vaccine dose 96.6% effective in preventive deaths, 97.5
+                  after two doses: ICMR</a
+                >
+              </div>
+            </div>-->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+
+    </main>
+    <footer>
+        <div class="footer-top primary-bg pt-115 pb-90">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-2 offset-xl-1 col-lg-3 d-md-none d-lg-block">
+                        <div class="footer-widget mb-30">
+                            <div class="footer-title">
+                                <h3>Quick Links</h3>
+                            </div>
+                            <div class="footer-menu">
+                                <ul>
+                                        <li><a href="news.html">News</a></li>
+                                        <li><a href="resources.html">Resources</a></li>
+                                        <li><a href="modelpage.php">Model</a></li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 offset-xl-1 col-lg-3 col-md-4">
+                        <div class="footer-widget mb-30">
+                            <div class="footer-title">
+                                <h3><i class="fa fa-envelope"></i> Contact Us</h3>
+                            </div>
+                            <div class="footer-menu">
+                                <ul>
+                                    <li><a href="mailto:contact@covitech.org">contact@covitech.org</a></li>
+                                    <li><a>Computer Engineering Department,<br>MPSTME, Mumbai</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom pt-25 pb-20">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="footer-copyright text-center">
+                            <p class="white-color">Web Programming Project, 2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </main>
+
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/one-page-nav-min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/jquery.meanmenu.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
