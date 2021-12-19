@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>WP Project: CovCT</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			body {
+				min-height: 75rem;
+				padding-top: 4.5rem;
+			}
+		</style>
+	</head>
+	<body style="text-align:center">
+		<main role="main" class="container mt-5">
+			<div class="row1">
+				<div class="column">
+					<input id="image-selector" type="file">
+				</div>
+				<div class="column">
+					<h3 class="textclass">Selected Image</h3>
+					<img id="selected-image" class="textclass" width="150" alt="">
+				</div>
+			</div>
+			<div class="row2">
+				<br>
+				<div class="column">
+					<button id="predict-button" class="btn btn-primary float-right">Predict</button>
+				</div>
+				<div class="column">
+					<h3 class="textclass">Predictions</h3>
+					<ol id="prediction-list"></ol>
+				</div>
+			</div>
+		</main>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+		<script src="predict.js"></script >
+	</body>
+</html>
